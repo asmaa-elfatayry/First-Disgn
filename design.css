@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@600&family=Kameron&family=Merienda+One&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+/* start navbar */
+.contanir{
+    width: 1200px;
+    margin: auto;
+    overflow: auto;
+    padding: 0px 20px;
+}
+.contanir h1 a{
+    float: left;
+    color:rgb(7, 97, 97);
+    padding: 16px 60px 0 200px;
+    font-family: "Merienda One";
+    font-weight: bold;
+    
+}
+.contanir ul{
+    list-style: none;
+    float: left;
+}
+.contanir ul li{
+float: left;
+padding-top: 22px ;
+
+
+}
+.contanir ul li a{
+    color:rgb(7, 97, 97);
+   padding: 20px;
+   font-family: Kameron;
+   font-size: 20px;
+   font-weight: bold;
+}
+.navbar{
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    
+}
+/* end navbar */
+/* start header img */
+
+
+.header{
+    background-image: url('https://i.ibb.co/CWy0qyH/slider01.jpg?fbclid=IwAR1piB5ePQYN1bzRITLO1d6fcQ8F3Jf5wR-eeMMmqbD_Mf6pUuwbLSlZYp8');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+}
+.header .imgt{
+    text-align: center;
+    padding-top: 180px;
+    line-height: 1.5em;
+}
+.header .imgt h1{
+    font-family: Arimo;
+    letter-spacing: 2px;
+    font-size: 2.5em;
+    color: white;
+    margin-bottom: 20px;
+}
+.header .imgt p{
+    color: rgba(253, 252, 252,.5);
+    font-weight: 200;
+}
+.header .imgt button{
+    margin-top: 30px;
+    padding: 15px 30px;
+    background-color: rgb(4, 160, 4);
+    border: green ;
+}
+.header .imgt button a{
+    color: white;
+}
+
+/* end header img */
+/* start text */
+.text{
+    text-align: center;
+    margin-top: 60px;
+    color: rgb(4, 83, 83);
+    line-height: 1.3em;
+}
+.text h2{
+    padding: 15px;
+    font-weight: bold;
+}
+.text p{
+    padding:15px ;
+}
+/* end text */
+/* start icons*/
+.last{
+    margin: 40px 100px;
+    padding: 15px;
+    color: rgb(4, 83, 83);
+}
+
+
+
+.icon{
+   
+    width: 33.3333%;
+}
+.icon h3{
+    display: inline-block;
+    margin: 5px;
+}
+.icon p{
+    padding: 15px 35px;
+}
+
+
+.pati,
+.creat,
+.qual{
+    float: left;
+    padding: 30px;
+    line-height: 1.5em;
+}
+
+   
+
+/* end icons*/
+
